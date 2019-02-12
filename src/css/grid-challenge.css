@@ -1,0 +1,14 @@
+body {
+  color: red;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-grid-rows: .5fr 1.5fr 3fr .5fr;
+      grid-template-rows: .5fr 1.5fr 3fr .5fr;
+  -ms-grid-columns: 1fr 1fr 1fr 150px;
+      grid-template-columns: 1fr 1fr 1fr 150px;
+}
+/*# sourceMappingURL=grid-challenge.css.map */

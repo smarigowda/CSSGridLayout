@@ -1,0 +1,10 @@
+body {
+    color: red;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: .5fr 1.5fr 3fr .5fr;
+    grid-template-columns: 1fr 1fr 1fr 150px;
+}
