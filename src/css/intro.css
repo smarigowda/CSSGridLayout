@@ -8,10 +8,10 @@ body {
   background-color: #eee;
   width: 1000px;
   margin: 40px auto;
-  -ms-grid-rows: 150px 150px;
-      grid-template-rows: 150px 150px;
-  -ms-grid-columns: 150px 150px 150px;
-      grid-template-columns: 150px 150px 150px;
+  -ms-grid-rows: (150px)[2];
+      grid-template-rows: repeat(2, 150px);
+  -ms-grid-columns: (150px)[3];
+      grid-template-columns: repeat(3, 150px);
   grid-gap: 30px;
 }
 
