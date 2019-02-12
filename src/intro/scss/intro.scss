@@ -25,6 +25,12 @@ body {
     color: white;
     &-1 {
         background-color: rgba(orange, 1);
+        // grid-row-start: 2;
+        // grid-row-end: 3;
+        // grid-column-start: 2;
+        // grid-column-end: 3;
+        grid-row: 2/3;
+        grid-column: 2/3;
     }
     &-2 {
         background-color: green;
@@ -37,9 +43,13 @@ body {
     }
     &-5 {
         background-color: blue;
+        grid-row: 1/2;
+        grid-column: 3/4;
     }
     &-6 {
         background-color: red;
+        grid-row: 1/2;
+        grid-column: 2/3;
     }
 }
 
