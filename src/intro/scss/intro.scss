@@ -10,10 +10,11 @@ body {
     display: grid;
     background-color: #eee;
     width: 1000px;
+    // height: 100vh;
     margin: 40px auto;
 
     grid-template-rows: repeat(2, 150px);
-    grid-template-columns: 50% 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
 }
 
@@ -23,7 +24,7 @@ body {
     font-size: 30px;
     color: white;
     &-1 {
-        background-color: orange;
+        background-color: rgba(orange, 1);
     }
     &-2 {
         background-color: green;
