@@ -10,9 +10,9 @@ body {
   margin: 40px auto;
   -ms-grid-rows: (150px)[2];
       grid-template-rows: repeat(2, 150px);
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  -ms-grid-columns: 50% 1fr 1fr;
+      grid-template-columns: 50% 1fr 1fr;
+  grid-gap: 40px;
 }
 
 .item {
