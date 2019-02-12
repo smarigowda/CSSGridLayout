@@ -10,8 +10,8 @@ body {
   margin: 40px auto;
   -ms-grid-rows: (150px)[2];
       grid-template-rows: repeat(2, 150px);
-  -ms-grid-columns: (150px)[1] 1fr 2fr;
-      grid-template-columns: repeat(1, 150px) 1fr 2fr;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
 
