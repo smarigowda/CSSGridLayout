@@ -4,12 +4,12 @@ body {
 
 .container {
     display: grid;
-    grid-gap: 10px;
-    height: 100vh;
+    grid-gap: 20px;
+    height: 800px;
     width: 1000px;
     margin: 0 auto;
-    grid-template-rows: .5fr 1.5fr 3fr .5fr;
-    grid-template-columns: 1fr 1fr 1fr 150px;
+    grid-template-rows: [header-start] .5fr [header-end box-start] 1.5fr [box-end main-start] 3fr [main-end footer-start] .5fr [footer-end];
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 150px [grid-end];
 }
 
 .item {
@@ -19,28 +19,18 @@ body {
     font-size: 35px;
     font-weight: 100;
     padding: 15px;
+    
 }
 .header {
     grid-row: 1/2;
-    grid-column: 1/ -1;
-}
-.box {
-    &-1 {
-
-    }
-    &-2 {
-
-    }
-    &-3 {
-
-    }
+    grid-column: col-start 1/ grid-end;
 }
 .sidebar {
     grid-column: 4/5;
-    grid-row: 2/span 2;
+    grid-row: box-start / main-end;
 }
 .main {
-    grid-column: 1/ span 3;
+    grid-column: col-start 1/ col-end 3;
 }
 .footer {
     grid-row: 4/5;
