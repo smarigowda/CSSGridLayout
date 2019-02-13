@@ -15,13 +15,35 @@ body {
   grid-auto-rows: 80px;
   grid-auto-flow: row;
   grid-auto-columns: .5fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  justify-items: center;
 }
 
 .container .item {
   background-color: orangered;
-  padding: 20px;
+  padding: 10px;
   color: white;
   font-size: 30px;
   font-family: sans-serif;
+}
+
+.container .item--4 {
+  background-color: crimson;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2/ span 3;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.container .item--7 {
+  background-color: palevioletred;
+  grid-column: 1/-1;
 }
 /*# sourceMappingURL=impli-expli.css.map */
