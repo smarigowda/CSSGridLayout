@@ -10,8 +10,8 @@ body {
     margin: 0 auto;
     grid-template-rows: .5fr 1.5fr 3fr .5fr;
     grid-template-columns: repeat(3, 1fr) 150px;
-    grid-template-areas: "head head head head"
-                         "box box box side"
+    grid-template-areas: "... head head ..."
+                         "box-1 box-2 box-3 side"
                          "main main main side"
                          "foot foot foot foot"
 }
@@ -25,14 +25,23 @@ body {
     padding: 15px;
 }
 .header {
-
+    grid-area: head;
 }
 .sidebar {
-
+    grid-area: side;
 }
 .main {
-
+    grid-area: main;
 }
 .footer {
-
+    grid-area: foot;
+}
+.box-1 {
+    grid-area: box-1;
+}
+.box-2 {
+    grid-area: box-2;
+}
+.box-3 {
+    grid-area: box-3;
 }
