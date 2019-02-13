@@ -1,0 +1,38 @@
+body {
+    margin: 15px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    height: 800px;
+    width: 1000px;
+    margin: 0 auto;
+    grid-template-rows: .5fr 1.5fr 3fr .5fr;
+    grid-template-columns: repeat(3, 1fr) 150px;
+    grid-template-areas: "head head head head"
+                         "box box box side"
+                         "main main main side"
+                         "foot foot foot foot"
+}
+
+.item {
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 15px;
+}
+.header {
+
+}
+.sidebar {
+
+}
+.main {
+
+}
+.footer {
+
+}
