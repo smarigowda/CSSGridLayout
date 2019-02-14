@@ -13,8 +13,9 @@ body {
     display: grid;
     // grid-template-rows: 150px 150px;
     grid-template-rows: repeat(2, minmax(150px, min-content));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     // grid-template-columns: min-content 1fr 1fr min-content;
-    grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+    // grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
 
     width: 90%;
 }

@@ -14,8 +14,8 @@ body {
   -ms-grid-rows: (minmax(150px, min-content))[2];
       grid-template-rows: repeat(2, minmax(150px, -webkit-min-content));
       grid-template-rows: repeat(2, minmax(150px, min-content));
-  -ms-grid-columns: minmax(200px, 1fr) (1fr)[3];
-      grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   width: 90%;
 }
 
