@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(blue, .5);
+}
+
+.container {
+    font-family: sans-serif;
+    font-size: 35px;
+    width: 1000px;
+    margin: 40px auto;
+    border: 1px solid black;
+
+    display: grid;
+}
+.item {
+    padding: 10px;
+    color: white;
+    // text-align: center;
+    &--1 {
+        background-color: green;
+    }
+    &--2 {
+        background-color: orangered;
+    }
+    &--3 {
+        background-color: violet;
+    }
+    &--4 {
+        background-color: indigo;
+    }
+    &--5 {
+        background-color: burlywood;
+    }
+    &--6 {
+        background-color: black;
+    }
+    &--7 {
+        background-color: cyan;
+    }
+    &--8 {
+        background-color: blue;
+    }
+}
