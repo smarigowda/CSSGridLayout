@@ -1,25 +1,32 @@
 body {
-    background-color: rgba(blue, .5);
+    background-color: #eee;
 }
 
 .container {
     font-family: sans-serif;
+    font-weight: 300;
     font-size: 35px;
     width: 1000px;
     margin: 40px auto;
     border: 1px solid black;
 
     display: grid;
+    // grid-template-rows: 150px 150px;
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+    // grid-template-columns: min-content 1fr 1fr min-content;
+    grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+
+    width: 90%;
 }
 .item {
     padding: 10px;
     color: white;
     // text-align: center;
     &--1 {
-        background-color: green;
+        background-color: rgba(green, 0.4);
     }
     &--2 {
-        background-color: orangered;
+        background-color: rgba(orangered, .4)
     }
     &--3 {
         background-color: violet;
