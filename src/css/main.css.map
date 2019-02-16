@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "ACgBA,AAAA,CAAC;AACD,QAAQ;AACR,OAAO,CAAC;EACJ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACtB;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,KAAK;EAChB,WAAW,EAdA,QAAQ,EAAE,UAAU;EAe/B,KAAK,EAlBW,OAAO;EAmBvB,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "../Nexter/starter/sass/main.scss",
+        "../Nexter/starter/sass/_base.scss",
+        "../Nexter/starter/sass/_typography.scss",
+        "../Nexter/starter/sass/_sidebar.scss",
+        "../Nexter/starter/sass/_header.scss",
+        "../Nexter/starter/sass/_realtors.scss",
+        "../Nexter/starter/sass/_features.scss",
+        "../Nexter/starter/sass/_story.scss",
+        "../Nexter/starter/sass/_homes.scss",
+        "../Nexter/starter/sass/_gallery.scss",
+        "../Nexter/starter/sass/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
